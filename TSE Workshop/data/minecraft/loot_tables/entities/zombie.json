@@ -1,0 +1,57 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:________",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "________",
+              "count": {
+                "type": "uniform",
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "________",
+              "count": {
+                "type": "uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:________",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "________",
+              "count": {
+                "type": "uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "________",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}
